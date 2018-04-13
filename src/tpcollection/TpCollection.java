@@ -53,9 +53,12 @@ public class TpCollection {
         
         users2.remove(usr7);
         
+        users3.addAll(users1);
+        users3.addAll(users2);
+
         
         // Affichage des utilisateurs
-        for (User usr: users1)
+        for (User usr: users3)
         {
             System.out.println(usr.toString());
         }
